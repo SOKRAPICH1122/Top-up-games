@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div class="logo-container">
-            <img src="00000.png" alt="JinZz Gaming Logo" class="logo">
-            <h1>JinZz Gaming</h1>
+            <img src="00000.png" alt="JinZz Gaming Logo" class="logo circular-shadow">
+            <h1 class="gradient-text">JinZz Gaming</h1>
             <div class="verified">
                 <img src="00005.png" alt="Verified Badge" class="verified-badge">
             </div>
         </div>
     </header>
-    
+
+    <!-- Gallery -->
     <div class="gallery">
         <div class="row">
             <div class="game">
@@ -40,48 +42,27 @@
         </div>
     </div>
 
-    <!-- Popup for Clash of Clans Buy -->
-    <div id="buyPopup" class="popup">
+    <!-- Popup Window -->
+    <div id="pricePopup" class="popup">
         <div class="popup-content">
-            <span id="closePopup" class="close-btn">&times;</span>
-            <h2>Clash of Clans</h2>
-            <div class="popup-info">
-                <img src="00006.jpeg" alt="Clash of Clans" class="popup-image">
-                <div class="popup-details">
-                    <p>Gold pass</p>
-                    <p>តម្លៃ: $6.0</p>
-                    <p>Delivery login: 2 នាទី</p>
-                    <p>មានសុវត្ថិភាព 100% នៅពេលដែលទិញរួចរាល់ តែខ្ញុំនឹង record video remove អោយវិញ 100%✓</p>
-                    <a href="https://t.me/Gamerpozzpich" target="_blank">
-                        <button class="chat-to-buy-btn">ទិញឥឡូវ</button>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Event Pass -->
-            <div class="popup-info">
-                <img src="00007.jpeg" alt="Event Pass" class="popup-image">
-                <div class="popup-details">
-                    <p>Event Pass</p>
-                    <p>តម្លៃ: $4.8</p>
-                    <p>Delivery login: 2 នាទី</p>
-                    <p>មានសុវត្ថិភាព 100% នៅពេលដែលទិញរួចរាល់ តែខ្ញុំនឹង record video remove អោយវិញ 100%✓</p>
-                    <a href="https://t.me/Gamerpozzpich" target="_blank">
-                        <button class="chat-to-buy-btn">ទិញឥឡូវ</button>
-                    </a>
-                </div>
-            </div>
+            <span id="closePricePopup" class="close-btn">&times;</span>
+            <h2>បង្ហាញតម្លៃរបស់ក្នុង Clash of Clans</h2>
         </div>
     </div>
 
-    <!-- Footer with Join and Admin buttons -->
+    <!-- Footer -->
     <footer>
         <div class="footer-buttons">
-            <a href="https://t.me/PICHGM" target="_blank"><button id="joinGroup">Join Telegram Group</button></a>
-            <a href="https://t.me/gamerpozzpich" target="_blank"><button id="addAdmin">Contact Admin</button></a>
+            <a href="https://t.me/PICHGM" target="_blank">
+                <button id="joinGroup" class="gradient-text shadow-button">Join Telegram Group</button>
+            </a>
+            <a href="https://t.me/gamerpozzpich" target="_blank">
+                <button id="addAdmin" class="gradient-text shadow-button">Contact Admin</button>
+            </a>
         </div>
     </footer>
 
+    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
